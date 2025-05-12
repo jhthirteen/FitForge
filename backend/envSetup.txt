@@ -1,2 +1,11 @@
 To activate the Python virtual environment
 . .venv/bin/activate
+
+To launch the flask server (privately) run
+flask --app hostServer run
+
+To launch the flask server (publicly) run
+flask --app hostServer run --host=0.0.0.0
+
+List of current backend dependencies:
+* Flaks (Python library for hosting a server)

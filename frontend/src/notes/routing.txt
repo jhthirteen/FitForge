@@ -1,0 +1,11 @@
+Routing - the act of redirecting users to different pages based on their actions and requests
+In React, we use the react-router-dom library to handle this 
+
+Folder structure: 
+src/pages contains different components that we can route to 
+
+Routing is setup and handled in our /src/main.jsx (which is our entry point for Vite)
+Because this is a Vite project - everything is injected into index.html
+So, in main.jsx, wrap the main <App/> component in <BrowserRouter> components to enable routing 
+- this gives your React app access to the curent URL path 
+Define the routes themselves within App.jsx
