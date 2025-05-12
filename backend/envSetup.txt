@@ -1,0 +1,2 @@
+To activate the Python virtual environment
+. .venv/bin/activate
