@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.mainWrapper  {
+    background-color: #28282B;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    object-fit: cover;
+    width: 400px;
+}
+
+.homeText {
+    color: white;
+    max-width: 400px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Console', Monaco, monospace;
+}

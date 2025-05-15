@@ -4,8 +4,10 @@ import Home from './pages/Home.jsx'
 
 function App() {
   return (
+    // Routes is a wrapper for each individual route
     <Routes>
-      <Route path="/" element={<Home></Home>}></Route>
+      {/* default landing page */}
+      <Route path="/" element={<Home></Home>}></Route> 
     </Routes>
   )
 }
