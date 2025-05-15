@@ -1,0 +1,8 @@
+React hooks - a special kind of function that lets you tap into React features such as state or routing 
+- useState() manages states
+- useEffect() runs dynamic side effects
+- useNavigate() pragmatiaclly changes the URL 
+
+useNavigate() breakdown
+manually changes the route in your application, even when a link is not used.
+our use case falls under changing the route of the application when clicking a button 
